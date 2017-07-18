@@ -1,0 +1,140 @@
+.header{
+  display:flex;
+  height:100px;
+  background: #7daced;
+  justify-content:space-between;
+  align-items: center;
+  padding:0 15px;
+}
+.header>img{
+  width: 40%;
+}
+.topics{
+  padding:0 10px;
+}
+.topic{
+  display:flex;
+  align-items: center;
+  margin:0 5px;
+}
+.topic .img {
+  margin:10px;
+  flex-shrink: 0;
+}
+.count{
+  margin-right: 10px;
+}
+.title{
+  flex-wrap:wrap;
+
+}
+.title h3{
+  text-overflow: ellipsis;
+	overflow: hidden;
+}
+.title .tab{
+  padding:2px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: yellowgreen;
+  border-radius: 3px;
+  color:white;
+  font-size: 12px;
+}
+.titleBar{
+  width: 100%;
+  display:flex;
+
+}
+.titleBar .tab{
+  padding:2px;
+  height: 20px;
+  background-color: yellowgreen;
+  border-radius: 3px;
+  color:white;
+  font-size: 12px;
+  flex-shrink: 0;
+}
+.content .author{
+  width: 100%;
+  color:#C2C2C2;
+  padding: 10px 0;
+}
+.substance{
+  border-top: 1px solid #eee;
+  width: 100%;
+  font-size: 12px;
+
+}
+.substance table{
+  width: 100%;
+  table-layout: fixed;
+}
+.substance img{
+  width: 100%;
+}
+.userInfo .ant-avatar {
+  width: 100px ;
+  height: 100px;
+
+}
+.userInfo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.userInfo a{
+  text-decoration: none;
+  line-height: 50px;
+}
+.reply{
+  padding:10px;
+  line-height: 30px;
+}
+.comments{
+  width: 100%;
+}
+.comments-top{
+  display: flex;
+   justify-content:space-between
+}
+.comments-bottom{
+  padding:10px;
+}
+.comments-bottom img{
+  width: 100%;
+}
+.comments span{
+  margin-left: 10px;
+}
+.collects{
+  display:flex;
+  width: 100%;
+
+  margin-top: 20px;
+  padding: 10px 0;
+  border-top: 1px solid #eee;
+
+
+}
+.collect{
+  margin-left: 10px;
+  flex-wrap:wrap;
+  align-items: center;
+}
+.collect h3{
+
+  text-overflow: ellipsis;
+	overflow: hidden;
+}
+.collect .tab{
+  padding:2px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: yellowgreen;
+  border-radius: 3px;
+  color:white;
+  font-size: 12px;
+}
