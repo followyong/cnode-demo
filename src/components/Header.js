@@ -10,7 +10,7 @@ class Header extends React.Component{
     this.state = {
       isLogin:false,
       visible:false,
-      input:'139c1e33-eb93-48f0-93d4-329f3fdb348d',
+      input:'',
       confirmLoading:false,
       user:null
     }
